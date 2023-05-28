@@ -12,16 +12,16 @@ This is a Go application that provides the current exchange rate of Bitcoin (BTC
 2. Change to the project directory:
  ```cd exchange_rate_bitcoin```
 3. Build the application:
-```go mod download```__
+```go mod download```\
 4.Run the application:
 ```go run main.go```
 
 ## Usage
 The application exposes several API endpoints:
 
-GET /rate: Fetches the current BTC exchange rate in USD.__
-POST /subscribe: Subscribes an email address for rate change notifications.__
-GET /subscribe: Serves the HTML form for email subscription.__
+GET /rate: Fetches the current BTC exchange rate in USD.\
+POST /subscribe: Subscribes an email address for rate change notifications.\
+GET /subscribe: Serves the HTML form for email subscription.\
 GET /sendEmails: Sends the current rate to all subscribed users.
 
 Access the application in your web browser:
