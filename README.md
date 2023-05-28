@@ -1,8 +1,5 @@
 # exchange_rate_bitcoin
 
-
-# Bitcoin Exchange Rate
-
 This is a Go application that provides the current exchange rate of Bitcoin (BTC) to USD and allows users to subscribe to rate change notifications via email.
 
 ## Installation
