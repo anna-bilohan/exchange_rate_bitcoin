@@ -8,21 +8,14 @@ This is a Go application that provides the current exchange rate of Bitcoin (BTC
 ## Installation
 
 1. Clone the repository:
-
-   git clone https://github.com/anna-bilohan/exchange_rate_bitcoin
-   
+```git clone https://github.com/anna-bilohan/exchange_rate_bitcoin```
 2. Change to the project directory:
-
-   cd exchange_rate_bitcoin
-   
+ ```cd exchange_rate_bitcoin```
 3. Build the application:
-
-  go build
-  
+```go mod download```
 4.Run the application:
+```go run main.go```
 
-  ./exchange_rate_bitcoin
-  
 ## Usage
 The application exposes several API endpoints:
 
